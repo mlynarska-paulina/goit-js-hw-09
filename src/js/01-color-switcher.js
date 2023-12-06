@@ -10,7 +10,7 @@ document.querySelector('[data-start]').addEventListener('click', () => {
     document.body.style.backgroundColor = randomColor;
   }, 1000);
   document.querySelector('[data-start]').disabled = true;
-  document.querySelector('[daya-stop]').disabled = false;
+  document.querySelector('[data-stop]').disabled = false;
 });
 
 document.querySelector('[data-stop]').addEventListener('click', () => {
